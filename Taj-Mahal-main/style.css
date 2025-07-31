@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+    width: 40%;
+    margin: 0 16px;
+    padding: 0 30px;
+    margin-top: 40px;
+}
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+    text-align: center;
+    margin: 0 16px;
+    font-size: 50px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.sobre{
+    text-align: center;
+    margin: 0 16px;
+    padding: 0 30px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+.localizacao{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.horarios{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ingressos{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.como-chegar{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.regras{
+    font-size: 18px;
+    margin-top: 20px;
+}
